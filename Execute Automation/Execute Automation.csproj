@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Execute_Automation</RootNamespace>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.2" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+    <PackageReference Include="coverlet.collector" Version="3.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Selenium.Chrome.WebDriver" Version="85.0.0" />
+    <PackageReference Include="Selenium.Firefox.WebDriver" Version="0.27.0" />
+    <PackageReference Include="Selenium.Microsoft.Webdriver2" Version="2.0.10586.1" />
+    <PackageReference Include="Selenium.Mozilla.Firefox.Webdriver" Version="0.6.0.1" />
+    <PackageReference Include="Selenium.Support" Version="4.5.1" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.5.1" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="106.0.5249.6100" />
+    <PackageReference Include="Selenium.WebDriver.MSEdgeDriver" Version="106.0.1370.34" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Test\" />
+  </ItemGroup>
+
+</Project>
